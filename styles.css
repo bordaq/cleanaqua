@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    width: 1300px;
+    margin:auto;
+    background-color: beige;
+}
+body {
+    background-color: #206883;
+}
+header{
+    background-color: rgb(255, 223, 180);
+    height: 80px;
+}
+#logo
+{
+    background-image: url(img/logo_responsive_recto.png);
+    font-size: 0px;
+    width: 80px;
+    height: 63px;
+    margin: 5px 25px;
+    margin-right:200px;
+}
+nav ul li{
+    display: inline-block;
+    margin-top:-5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius:5px;
+    transition: background-color 0,3;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+nav ul li a:hover{
+    background-color:  rgb(211, 176, 133);
+    color:#FFF;
+}
+.nav{
+    overflow:hidden;
+}
+.nav h1{
+    float: left;
+    margin:0;
+}
+.nav nav{
+float: none;
+padding: 30px 250px;
+}
+h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;  
+    font-size: 60px;
+    text-align: right;
+    margin-right: 50px;
+}
+#logotipo{
+    width: 1000px;
+    margin: 0 110px;
+    margin-top:60px;
+    margin-bottom: 200px;
+}
+.cyan{
+    color: #3DBFEF;
+    font-weight: 400;
+}
+.bold{
+    font-weight: 500;
+}
+.handwritten{
+    font-family: "Playwrite SK", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(228, 155, 60);
+}
+#second{
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+.img-text{
+    margin: 50px 110px;
+    padding: 0;
+}
+.img-left{
+    width: 500px;
+    height: 700px;
+    background-color: #3DBFEF;
+    margin-right: 40px;
+    float:left;
+}
+.text-right p{
+    margin:0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+    padding-right:80px;
+    text-justify:auto;
+    margin-top:10px;
+}
+.clear{
+    clear:both;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+h4{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+footer p{
+    text-align: center;
+    font-size:20px;
+}
+.featured h3{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.text-right h4 {
+    font-size:70px;
+}
+h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.title{
+    background-color: rgba(228, 155, 60, 0.507);
+    display: inline;
+    border-radius: 20px;
+    margin-left: 410px;
+    padding: 0 20px;
+}
+.divider{
+    margin: 150px;
+    background-color: #3DBFEF;
+    height: 20px;
+    border-radius: 20px;
+}
+#contact h3{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+#contact-left a div{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+#contact-left a h4{
+    font-size: 23px;
+    font-weight: 500;
+}
+#contact-left{
+    float: left;
+    margin-top: 42px;
+    margin-left: 270px;
+}
+#map{
+    margin-left:500px;
+    margin-bottom: 100px;
+}
+#phone h4{
+    margin-left: 8px;
+}
+#phone p{
+    margin-left: -19px;
+}
+#mail h4{
+    margin-left: 24px;
+}
+#mail p{
+    margin-left: -40px;
+}
+#address h4{
+margin-left: 3px;
+}
+#address p{
+margin-left: -8px;
+}
+#contact-left a p{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.icon_address{
+    background-image: url(img/icon_address.png);
+}
+.icon_phone{
+    background-image: url(img/icon_phone.png);
+}
+.icon_mail{
+    background-image: url(img/icon_mail.png);
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#contact-left a p{
+    font-size:19px;
+}
+iframe{
+    background-color: rgb(255, 223, 180);
+}
+#contact-left a:hover{
+    color: rgb(216, 161, 88);
+}
